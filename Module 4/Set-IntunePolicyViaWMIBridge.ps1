@@ -1,0 +1,1 @@
+﻿New-CimInstance -Namespace 'root\cimv2\mdm\dmmap' -ClassName 'MDM_Policy_Config01_NetworkListManager02' -Property @{ InstanceID='NetworkListManager'; ParentID='./Vendor/MSFT/Policy/Config'; 'AllowedTlsAuthenticationEndpoints'='<![CDATA[https://stifler-01.2pintlab.local]]>' } -ErrorAction Stop
