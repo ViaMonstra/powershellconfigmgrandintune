@@ -37,7 +37,7 @@ Foreach ($Version in $Versions)
 }
 
 # Install the latest version (you may have to close all PowerShell before upgrading)
-Install-Module Microsoft.Graph
+Install-Module Microsoft.Graph -Force
 
 # If removed any dependency modules, reinstall them again
-Install-Module Microsoft.Entra
+Install-Module Microsoft.Entra -Force
